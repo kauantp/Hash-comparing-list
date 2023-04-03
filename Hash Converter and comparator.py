@@ -1,6 +1,6 @@
 import hashlib
 
-a = "SHA256 e MD5 corretos"
+a = "Em 1999 iniciam-se as atividades da FCI (Faculdade de Informática), como o curso de Ciência da Computação."
 c = hashlib.sha256(a.encode())
 b = hashlib.md5(a.encode())
 
@@ -11,10 +11,11 @@ cn = str(c.hexdigest())
 bn = str(b.hexdigest())
 
 if (cn == cr):
-print("Correto")
+    print("Correto")
 else:
-print("INCORRETO")
+    print("INCORRETO")
 if (bn == br):
-print("Correto2")
+    print("Correto2")
 else:
-print("INCORRETO2")
+    print("INCORRETO2")
+
